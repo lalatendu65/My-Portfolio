@@ -14,7 +14,11 @@ export const ProjectList = [
     skills: "Nodejs,Ejs,Html,css,Api",
     projectlink: (
       <div>
-        <a href="https://github.com/lalatendu65/Dynamic-Weather-app">
+        <a
+          href="https://github.com/lalatendu65/Dynamic-Weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           Weather_APP
         </a>
       </div>
@@ -27,7 +31,11 @@ export const ProjectList = [
     skills: "Node.js,Mysql,Ejs,Html,css",
     projectlink: (
       <div>
-        <a href="https://github.com/lalatendu65/UserManagement">
+        <a
+          href="https://github.com/lalatendu65/UserManagement"
+          target="_blank"
+          rel="noreferrer"
+        >
           Usermangement
         </a>
       </div>
@@ -40,7 +48,11 @@ export const ProjectList = [
     skills: "Nodejs,expressjs,Api,postman",
     projectlink: (
       <div>
-        <a href="https://github.com/lalatendu65/User-login-singup-API">
+        <a
+          href="https://github.com/lalatendu65/User-login-singup-API"
+          target="_blank"
+          rel="noreferrer"
+        >
           login-singup-Api
         </a>
       </div>
@@ -54,7 +66,13 @@ export const ProjectList = [
 
     projectlink: (
       <div>
-        <a href="https://usermanagement-crud.netlify.app/">CRUD_APP</a>
+        <a
+          href="https://usermanagement-crud.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          CRUD_APP
+        </a>
       </div>
     ),
   },

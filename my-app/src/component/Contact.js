@@ -43,16 +43,32 @@ function Contact(){
             <div className="social-media">
               <p>Connect with us :</p>
               <div className="social-icons">
-                <a href="https://github.com/lalatendu65">
+                <a
+                  href="https://github.com/lalatendu65"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaGithub></FaGithub>
                 </a>
-                <a href="https://www.linkedin.com/in/lalatendu-pany-2670521ab/">
+                <a
+                  href="https://www.linkedin.com/in/lalatendu-pany-2670521ab/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaLinkedin></FaLinkedin>
                 </a>
-                <a href="https://www.facebook.com/lalatendu.pany?mibextid=ZbWKwL">
+                <a
+                  href="https://www.facebook.com/lalatendu.pany?mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaFacebook></FaFacebook>
                 </a>
-                <a href="https://instagram.com/lalatendupany_12?igshid=MTA2NDdkNWE=">
+                <a
+                  href="https://instagram.com/lalatendupany_12?igshid=MTA2NDdkNWE="
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaInstagram></FaInstagram>
                 </a>
               </div>

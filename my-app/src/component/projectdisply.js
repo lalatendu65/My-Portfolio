@@ -4,9 +4,9 @@ import { ProjectList } from "../helper/projectlist";
 import { useParams } from "react-router-dom";
 
 import "./projectdisplay.css"
-// import GitHubIcon from "@mui/icons-material/GitHub";
 
-import { FaGithub} from "react-icons/fa";
+
+
 
 function ProjectDisplay() {
   const { id } = useParams();
@@ -18,11 +18,9 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <div className="github-icon">
-      <a href="https://github.com/lalatendu65">
-        <FaGithub />
-      </a>
-      </div>
+      <p>
+        <b>ProjectLinks</b> {project.projectlink}
+      </p>
     </div>
   );
 }
